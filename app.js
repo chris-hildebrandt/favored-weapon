@@ -118,3 +118,4 @@ let weapons = [
     cost: "high",
   }
 ]
+
