@@ -119,3 +119,11 @@ let weapons = [
   }
 ]
 
+currentArmory = weapons
+
+function filterValue(value){
+  currentArmory = currentArmory.filter(weap => weap.cost[value])
+}
+
+filterValue(low)
+console.log(currentArmory)
